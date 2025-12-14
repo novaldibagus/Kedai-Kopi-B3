@@ -1,9 +1,17 @@
-// Toggle class active
+// Toggle class active untuk hamburger menu
 const navbarNav = document.querySelector(".navbar-nav");
 
 //ketika hamburger menu di klik
 document.querySelector("#hamburger-menu").onclick = () => {
   navbarNav.classList.toggle("active");
+};
+
+// Toggle class active untuk search
+const searchfrom = document.querySelector('.search-from');
+const searchBox = document.querySelector('#search-box');
+
+document.querySelector('search-button').onclick = () => {
+  searchfrom.classList.toggle('active');
 };
 
 //klik di luar sidebar untuk menghilangkan nav
