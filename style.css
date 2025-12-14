@@ -86,9 +86,10 @@ body {
   display: none;
 }
 
+
 /* Navbar Search Section */
 
-.navbar .search-from{
+.navbar .search-form{
   position: absolute;
   top: 100%;
   right: 7%;
@@ -102,11 +103,11 @@ body {
   transition: 0.3s;
 }
 
-.navbar .search-from.active {
+.navbar .search-form.active {
   transform: scaleY(1);
 }
 
-.navbar .search-from input {
+.navbar .search-form input {
   height: 100%;
   width: 100%;
   font-size: 1.6rem;
@@ -114,12 +115,14 @@ body {
   padding: 1rem;
 }
 
-.navbar .search-from label{
+.navbar .search-form label{
   cursor: pointer;
   font-size: 2rem;
   margin-right: 1rem;
   color: var(--bg);
 }
+
+
 /* Navbar Search end */
 
 /* Hero Section */
