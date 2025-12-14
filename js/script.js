@@ -7,11 +7,11 @@ document.querySelector("#hamburger-menu").onclick = () => {
 };
 
 // Toggle class active untuk search
-const searchfrom = document.querySelector('.search-from');
+const searchForm = document.querySelector('.search-form');
 const searchBox = document.querySelector('#search-box');
 
 document.querySelector('search-button').onclick = () => {
-  searchFrom.classList.toggle('active');
+  searchForm.classList.toggle('active');
 };
 
 //klik di luar sidebar untuk menghilangkan nav
