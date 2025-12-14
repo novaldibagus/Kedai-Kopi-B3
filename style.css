@@ -130,7 +130,7 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url("../img/header-bg.jpeg");
+  background-image: url("./img/header-bg.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -403,6 +403,11 @@ footer .credit a {
 
   .navbar .navbar-nav a:hover::after {
     transform: scaleX(0.2);
+  }
+
+  .navbar .search-form {
+    width: 90%;
+    right: 2rem;
   }
 
   .about .row {
