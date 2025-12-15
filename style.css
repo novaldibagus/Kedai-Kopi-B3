@@ -130,7 +130,7 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url("/img/header-bg.jpeg");
+  background-image: url("/..img/header-bg.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -455,5 +455,11 @@ footer .credit a {
   html {
     font-size: 55%;
   }
- 
+ .hero {
+    min-height: 100vh;
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
 }
