@@ -136,14 +136,16 @@ body {
   background-position: center;
   position: relative;
   background-color: transparent;
+  outline: 5px solid lime;
 }
+
 
 .hero::after {
   content: "";
   display: block;
   position: absolute;
   width: 100%;
-  height: 30%;
+  height: 20%;
   bottom: 0;
   z-index: 1;
   background: linear-gradient(
